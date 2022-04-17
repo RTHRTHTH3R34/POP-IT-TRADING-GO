@@ -295,9 +295,159 @@ Section:NewButton("Drop Ben", "Drop Ben", function()
 getgenv().item_name = "Trading Ben" -- Change this to what you want to autodupe
 loadstring(game:HttpGet('https://raw.githubusercontent.com/THEBESTHAGEG/LOLOLO/main/README.md'))()
 end)
+local Tab     = Window:NewTab("IF U GET REAPED CLICK HERE")
+local Section = Tab:NewSection("1.U NEED TO SELL THE REAPER")
+Section:NewButton("1.get money", "Buy item dupe cash", function()
+local args = {
+        [1] = "Gummy Blue"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Gummy Blue"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("2.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Ladder"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Ladder"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("3.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Bad Tommeh"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Bad Tommeh"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("4.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Bitcoin"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Bitcoin"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("5.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Gummy Black"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Gummy Black"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)Section:NewButton("6.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Boombox Candy"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Boombox Candy"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("7.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Siren Head"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Siren Head"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("8.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Tulsa rainbow"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Tulsa rainbow"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("4.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "eTruck"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "eTruck"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("9.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Jet"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Jet"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("10.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Illuminati"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Illuminati"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+Section:NewButton("11.click here to get more", "Buy item dupe cash", function()
+local args = {
+        [1] = "Amogus Rainbow"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+        local args = {
+        [1] = "Amogus Rainbow"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+local Section = Tab:NewSection("Click on Crash server when u are rich !!!!")
+Section:NewButton("Click her to crash and get ur items back", "Click her to crash and get ur items back", function()
+    local args = {
+        [1] = "Jet"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
 local Tab     = Window:NewTab("Owner")
 local Section = Tab:NewSection("Made By Ibrahim_10701")
 local Section = Tab:NewSection("ADD ME ON DISCORD https://discord.gg/Sa8GyZNK")
-Section:NewSlider("Speed", "Speed", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
