@@ -78,204 +78,33 @@ end)
 Section:NewButton("Platform 6(left)", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-18.6514835357666, 26.97749900817871, -326.1947021484375))
 end)
-local Tab     = Window:NewTab("Dupe script")
-local Section = Tab:NewSection("Dupe cash inf !")
-Section:NewButton("Dupe the banana", "Buy item dupe cash", function()
-local args = {
-        [1] = "The banana"
-    }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "The banana"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe pop it Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Pop It Rainbow!"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Pop It Rainbow!"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Lolly Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Lolly Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Lolly Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Amogus Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Amogus Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Amogus Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Crystal Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Crystal Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Crystal Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+local Tab     = Window:NewTab("FREE MONEY FAST")
+local Section = Tab:NewSection("free money")
+Section:NewTextBox("Auto Buy", "Items Names", function(txt)
+Autobuy = txt
 end)
 
-Section:NewButton("Dupe Slippy Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Slippy Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Slippy Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Rainbow Banana", "Buy item dupe cash", function()
-local args = {
-        [1] = "Rainbow Banana"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Rainbow Banana"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Gummy Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Gummy Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Gummy Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+Section:NewButton("Buy one", "Buying Items", function()
+local A_1 = Autobuy
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash
+Event:FireServer(A_1)
 end)
 
-Section:NewButton("Dupe Gem Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Gem Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Gem Rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-
-Section:NewButton("Dupe Muscles", "Buy item dupe cash", function()
-local args = {
-        [1] = "Muscles"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Muscles"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-
-Section:NewButton("Dupe Illuminati", "Buy item dupe cash", function()
-local args = {
-        [1] = "Illuminati"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Illuminati"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Jet", "Buy item dupe cash", function()
-local args = {
-        [1] = "Jet"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Jet"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe eTruck", "Buy item dupe cash", function()
-local args = {
-        [1] = "eTruck"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "eTruck"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-
-Section:NewButton("Dupe Shiny Thing", "Buy item dupe cash", function()
-local args = {
-        [1] = "Shiny Thing"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Shiny Thing"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Spidy", "Buy item dupe cash", function()
-local args = {
-        [1] = "Spidy"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Spidy"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-Section:NewButton("Dupe Tulsa Rainbow", "Buy item dupe cash", function()
-local args = {
-        [1] = "Tulsa rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
-        local args = {
-        [1] = "Tulsa rainbow"
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+Section:NewToggle("Auto Buy", "Dupe Banana", function(state)
+    if state then
+_G.on = true -- Set to true/false to turn on/off
+while _G.on == true do
+    wait()
+    local A_1 = Autobuy
+    local Event = game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash
+    Event:FireServer(A_1)
+end
+    else
+    
+_G.on = false
+        
+    end
 end)
 local Tab     = Window:NewTab("Scam script")
 local Section = Tab:NewSection("scam working !!")
